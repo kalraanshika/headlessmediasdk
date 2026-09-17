@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# local environment files (never commit real keys)
+.env
+.env.local
+.env.*.local
+
+# tooling / editor
+.vite/
+.vercel/
+coverage/
+*.log
+served-main.js
+.DS_Store
+Thumbs.db
+.vercel
+.env*

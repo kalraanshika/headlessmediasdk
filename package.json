@@ -1,0 +1,11 @@
+{
+  "name": "headless-media-sdk",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev": "npm run dev -w media-demo",
+    "build": "npm run build --workspaces && node scripts/prepare-vercel-output.mjs",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "devDependencies": { "typescript": "latest" }
+}
